@@ -32,4 +32,4 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
 
 [project.entry-points."setuptools.finalize_distribution_options"]
-setuptools_scm = autocalver.integration:guess_version
+setuptools_scm = "onedotoh.integration:guess_version"
