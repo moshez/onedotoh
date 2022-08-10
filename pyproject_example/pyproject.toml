@@ -1,0 +1,12 @@
+[build-system]
+requires = [
+    "setuptools",
+    "onedotoh",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "a_pyproject"
+version = "0.1.2"
+description = "A pyproject.toml-only project"
+authors = [{name = "Moshe Zadka", email = "moshez@zadka.club"}]
